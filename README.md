@@ -123,7 +123,8 @@ Toward these ideals, sortables:
 
 A Sortable's sorted method, as well as a Sortable dict's `items` method return
 a Sortable series. As with the `sorted` builtin, the series type is generally
-a list.
+a list, although currently dict's sorted returns a dict (which necessarily
+ties us to Python 3.7+)
 
 ## Regarding efficiency
 
