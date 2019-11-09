@@ -22,23 +22,25 @@ def getter(key:Union[int, str, Iterable[int], Iterable[str], Callable, None]):
 
 
 class SortableSeries(object):
-    """A series data structure with a `sorted` method.
+    """A series data structure with a `sorted` method."""
 
-    Keyword arguments:
-    key -- Key to sort by (default None)
-    method -- Method call to sort by (default None)
-    reverse -- whether to reverse the sort (default False)
-
-    `key` can be an integer index, or can be a string property name (e.g. for
-    named tuples and for instance objects)
-
-    `method` accepts a string name of a method to call. Argument passing is not
-    currently supported.
-    """
 
     def sorted(self,
                key:Union[int, str, Iterable[int], Iterable[str], Callable, None]=None,
                method=None, reverse=False):
+        """Return a sorted copy of this series.
+
+        Keyword arguments:
+        key -- Key to sort by (default None)
+        method -- Method call to sort by (default None)
+        reverse -- whether to reverse the sort (default False)
+
+        `key` can be an integer index, or can be a string property name (e.g.
+        for named tuples and for instance objects)
+
+        `method` accepts a string name of a method to call. Argument passing is
+        not currently supported.
+        """
         if method is not None:
             # TODO: support for method arguments
             return sortables.factory.Sortable(

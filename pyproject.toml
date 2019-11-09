@@ -2,7 +2,7 @@
 name = "sortables"
 version = "0.1.0"
 description = "sanely sortable Python data structures"
-authors = ["Scott Bradley <@scott2b>"]
+authors = ["Scott Bradley <scott@scott2b.com>"]
 licence = "MIT"
 readme = "README.md"
 homepage = "https://github.com/scott2b/sortables"

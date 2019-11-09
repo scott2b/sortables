@@ -37,6 +37,6 @@ class SortableDict(dict):
             return dict(sorted(self.items(), reverse=reverse))
 
     def items(self):
-        """Return a Sortable copy of 
+        """Return a Sortable copy of the dict items."""
         return sortables.factory.Sortable(tuple(super().items()))
 
