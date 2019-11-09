@@ -5,6 +5,9 @@ description = "sanely sortable Python data structures"
 authors = ["Scott Bradley <@scott2b>"]
 licence = "MIT"
 readme = "README.md"
+homepage = "https://github.com/scott2b/sortables"
+repository = "https://github.com/scott2b/sortables"
+keywords = ["sort", "sorting", "data structures", "dict", "tuple", "list", "set"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
