@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sortables"
-version = "0.1.0"
+version = "0.1.1"
 description = "sanely sortable Python data structures"
 authors = ["Scott Bradley <scott@scott2b.com>"]
 licence = "MIT"
