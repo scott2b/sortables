@@ -37,6 +37,12 @@ t.sorted(key='myproperty')
 
 ... and more.
 
+### Installation
+
+```
+pip install sortables
+```
+
 ### Sort a series of tuples by an internal index.
 
 ```
